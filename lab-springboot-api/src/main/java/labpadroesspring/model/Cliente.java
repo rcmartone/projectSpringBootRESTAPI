@@ -1,4 +1,4 @@
-package labpadroesspring.model;
+package main.java.labpadroesspring.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
