@@ -16,9 +16,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  * @author Rafael
  */
 
- //Habilitando o feign
+ //Habilitando o feing
 @EnableFeignClients
-
 @SpringBootApplication
 public class Application {
 
