@@ -1,4 +1,4 @@
-package main.java.labpadroesspring.service;
+package labpadroesspring.service;
 
 import main.java.labpadroesspring.model.Cliente;
 

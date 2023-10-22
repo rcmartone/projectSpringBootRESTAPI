@@ -1,10 +1,10 @@
-package main.java.labpadroesspring.service;
+package labpadroesspring.service;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import main.java.labpadroesspring.model.Endereco;
+import labpadroesspring.model.Endereco;
 
 /**
  * Client HTTP, criado via <b>OpenFeign</b>, para o consumo da API do

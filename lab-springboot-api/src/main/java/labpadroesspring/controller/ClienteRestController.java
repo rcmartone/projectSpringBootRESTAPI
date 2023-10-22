@@ -1,4 +1,4 @@
-package main.java.labpadroesspring.controller;
+package labpadroesspring.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import one.digitalinnovation.gof.model.Cliente;
-import one.digitalinnovation.gof.service.ClienteService;
+import labpadroesspring.model.Cliente;
+import labpadroesspring.service.ClienteService;
 
 /**
  * Esse {@link RestController} representa nossa <b>Facade</b>, pois abstrai toda
@@ -30,6 +30,7 @@ public class ClienteRestController {
 
 	@GetMapping
 	public ResponseEntity<Iterable<Cliente>> buscarTodos() {
+
 		return ResponseEntity.ok(clienteService.buscarTodos());
 	}
 
